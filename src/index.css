@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-script: 'Great Vibes', cursive;
+  
+  --color-brand-dark: #071711;
+  --color-brand-surface: #0e2920;
+  --color-brand-elevated: #153b2f;
+  --color-brand-border: rgba(197, 160, 89, 0.22);
+  --color-gold-primary: #c5a059;
+  --color-gold-light: #ecd599;
+  --color-gold-dark: #8c6a23;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-script {
+  font-family: 'Great Vibes', cursive;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f7e7be 0%, #c5a059 50%, #e2be6c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 25px -5px rgba(197, 160, 89, 0.15);
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #c5a059 0%, #dfbf72 50%, #aa843d 100%);
+}
+

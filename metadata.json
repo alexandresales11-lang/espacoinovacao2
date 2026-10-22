@@ -1,0 +1,6 @@
+{
+  "name": "Espaço Inovação - Festas e Eventos em Jacobina",
+  "description": "Espaço moderno e climatizado para eventos, casamentos e aniversários em Jacobina - BA. Capacidade para mais de 300 convidados, piscina, ampla área verde e estrutura completa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
